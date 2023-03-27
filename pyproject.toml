@@ -129,14 +129,8 @@ format = "text"
 max-complexity = 10
 
 [tool.ruff.per-file-ignores]
-"LeetCode/study_plans/leet-75/same_tree/same_tree.py" = ["D401"]
-"LeetCode/algorithms/unique_paths/uniq.py" = ["D401"]
-"LeetCode/study_plans/algo_2/number_islands/num_islands.py" = ["D401"]
-"LeetCode/study_plans/algo_2/provinces/num_prov.py" = ["D401"]
-"LeetCode/study_plans/algo_2/next_node_tree/next_right_pointer.py" = ["D401"]
-"LeetCode/study_plans/algo_2/comb_sum/combination_sum.py" = ["D401"]
-"LeetCode/study_plans/algo_2/comb_sum_ii/combination_sum_2.py" = ["D401"]
-"AdventOfCode/aoc_solvings/src_2022/day19.py" = ["E501"]
+# example below
+# "path/to/file/name.py" = ["ERR111"]
 
 [tool.ruff.pydocstyle]
 convention = "google"
